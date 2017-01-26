@@ -1,9 +1,10 @@
 import media  # media module contains class Movie
 
 import fresh_tomatoes 
-"""fresh_tomatoes module contains the method open_movies_page and the CSS/HTML
-code to construct our movie trailer HTML page
-"""
+""" fresh_tomatoes module contains the method open_movies_page and the CSS/HTML
+code to construct our movie trailer HTML page """
+
+#  create instance for each movie using class Movie
 gladiator = media.Movie("Gladiator",
 	"https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg",
 	"https://www.youtube.com/watch?v=owK1qxDselE&t=12s")
@@ -24,8 +25,10 @@ braveheart = media.Movie("Braveheart",
 	"https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg",
 	"https://www.youtube.com/watch?v=wj0I8xVTV18")
 
+# create data list with all movie instances
 movies = [gladiator,prestige,django,interstellar,braveheart]
 
+# pass movie data list to generate HTML page
 fresh_tomatoes.open_movies_page(movies)
 
 
