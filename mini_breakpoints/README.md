@@ -1,7 +1,7 @@
 # Responsive Design Project L5
 
 ##Diclaimer: 
-This is an minor submission for Udacity's Full-Stack Web-Developer Nano Degree. 
+This is an intermediate submission for Udacity's Full-Stack Web-Developer Nano Degree. 
 
 ##Updates: 
 Modified code to: 
