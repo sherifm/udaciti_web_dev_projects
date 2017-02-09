@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>S. Mostafa Portfolio Site</title>
+    <!-- Set character encoding to Unicode-->
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Sherif Mostafa's full stack web development portfolio">
+    <meta name="author" content="Sherif Mostafa">
+
+    <!-- Set page width to follow screen width and set initial zoom level  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Highest supported document mode if using internet explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Link styles and fonts -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+
+    <!-- Link icon for browser tabs and home screen saved pages -->
+    <!-- <link rel="icon" sizes="192x192" href=""> -->
+
+    <!-- Full screen functionality for home screen installed web apps -->
+
+    <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent"> -->
+    <!-- <link rel="apple-touch-icon" href=""> -->
+
+    <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- <link rel="shortcut icon" sizes="196x196" href=""> -->
+    <!-- Set toolbar color on Chrome for Android (Lollipop or later) -->
+    <meta name="theme-color" content="‎#4682b4">
+
+</head>
+
+<body>
+    <header class="header_row">
+        <div class="header_icon">
+            <picture>
+                <img src="images/udacity_logo_80px.png" alt="Header icon">
+            </picture>
+        </div>
+        <div class="header_text">
+            <h1 class="main_title">Sherif Mostafa</h1>
+            <h3 class="secondary_title">Front-end Ninja</h3>
+        </div>
+    </header>
+
+    <section class="container">
+
+        <hr class="header_rule">
+        <picture class="main_image_frame">
+            <!-- Provide multiple images for responsive design -->
+            <source media="(min-width: 600px)" srcset="images/wallpaper-1800_large_2x.jpg 2x, images/wallpaper-950_large_1x.jpg"/>
+            <source media="(min-width: 350px)" srcset="images/wallpaper-1200_medium_2x.jpg 2x, images/wallpaper-600_medium_1x.jpg"/>
+            <img class="main_image" srcset="images/wallpaper-600_small_2x.jpg 2x, images/wallpaper-300_small_1x.jpg" alt="Software deevelopment wallpaper">
+        </picture>
+
+        <h2 class="project_section_title text-muted"> Featured Work </h2>
+
+        <div class="movie_trailer">
+            <figure class="project_thumbnail">
+                <picture>
+                    <!-- Reduce thumbnail sizes for responsive deisgn -->
+                    <source media="(min-width: 350px)" srcset="images/movie_trailer-150_medium_1x.png"/>
+                    <img src="images/movie_trailer-125_small_1x.png" alt="Portfolio icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Movie Trailers</h3>
+                    <p><a href="https://github.com/sherifm/udaciti_web_dev_projects/tree/master/movie_trailer_website">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="build_portfolio">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="images/build_portfolio-150_medium_1x.png"/>
+                    <img src="images/build_portfolio-125_small_1x.png" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Front End Portfolio</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="user_blog">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>User Blog</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tournament">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Tournament Page</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="item_catalog">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Item Catalog</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="neighborhood_map">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Neighborhood Map</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="game">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Web Game</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="project server">
+            <figure class="project_thumbnail">
+                <picture>
+                    <source media="(min-width: 350px)" srcset="http://placehold.it/150x150"/>
+                    <img src="http://placehold.it/125x125" alt="Project icon">
+                </picture>
+                <figcaption class="project_thumbnail">
+                    <h3>Web Server</h3>
+                    <p><a href="">Github Repo</a></p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+</body>
+</html>

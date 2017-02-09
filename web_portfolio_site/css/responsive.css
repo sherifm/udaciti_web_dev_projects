@@ -1,0 +1,35 @@
+/*#####################*/
+/*Adjust font sizes*/
+/*#####################*/
+@media screen and (max-width: 700px) {
+  .main_title {
+    font-size:45px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header_icon{
+    width:50px;
+  }
+
+  .header_text{
+    width: calc(100% - 50px);
+  }
+
+  .main_title {
+    font-size:35px;
+  }
+
+}
+
+
+@media screen and (max-width: 350px) {
+  .main_title {
+    font-size:25px;
+  }
+
+  .project_section_title{
+    font-size:20px;
+  }
+
+}
